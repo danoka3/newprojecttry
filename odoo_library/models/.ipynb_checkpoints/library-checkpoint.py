@@ -9,7 +9,7 @@ class Library(models.Model):
     
     
     name = fields.Char(string="Title" , required=True)
-    descriptipn = fields.Text(string="Description")
+    description = fields.Text(string="Description")
     author = fields.Char(string="Author Name", required=True)
     editor = fields.Char(string="Editor")
     year_of_edition = fields.Date("Date")
