@@ -2,7 +2,7 @@
 
 <odoo>
     <data noupdate="1">
-        <record model="library.book" id="bülbülü öldürmek">
+        <record model="library.book" id="bülbülü_öldürmek">
             <field name="name">bülbülü öldürmek</field>
             <field name="description">güzellll</field>
             <field name="author">Harper Lee</field>
@@ -13,7 +13,7 @@
             
         </record>
                                          
-        <record model="library.book" id="beyaz diş">
+        <record model="library.book" id="beyaz_diş">
             <field name="name">beyaz diş</field>
             <field name="description">güzel</field>
             <field name="author">Jack London</field>
