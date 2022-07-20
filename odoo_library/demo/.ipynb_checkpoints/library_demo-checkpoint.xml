@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+    <data noupdate="1">
+        <record model="library.book" id="bülbülü öldürmek">
+            <field name="name">bülbülü öldürmek</field>
+            <field name="description">güzellll</field>
+            <field name="author">Harper Lee</field>
+            <field name="genre">self-improvement</field>
+            <field name="editor">montajer</field>
+            <field name="year_of_edition">2010-10-01</field>
+            
+            
+        </record>
+                                         
+        <record model="library.book" id="beyaz diş">
+            <field name="name">beyaz diş</field>
+            <field name="description">güzel</field>
+            <field name="author">Jack London</field>
+            <field name="genre">Novel</field>
+            <field name="editor">orçun kitabevi</field>
+            <field name="year_of_edition">2016-08-23</field>
+        
+            
+        </record>
+            
+            
+        <record model="library.book" id="1984">
+            <field name="name">bindokuzyüzseksendört</field>
+            <field name="description">güzel kitap</field>
+            <field name="author">George Orwel</field>
+            <field name="genre">Novel</field>
+            <field name="editor">can kitabevi</field>
+            <field name="year_of_edition">2001-12-21</field>
+            
+            
+            
+        </record>
+        <record model ="library.book" id="Sefiller">
+            <field name="name">Sefiller</field>
+            <field name="description">Viktor Hugo'Nun sefiller kitabı</field>
+            <field name="author">Viktor Hugo</field>
+            <field name="genre">Novel</field>
+            <field name="editor">unknown</field>
+            <field name="year_of_edition">2000-07-28</field>
+            
+        </record>
+        <record model="library.book" id="bir_idam_mahkumu">
+            <field name="name">Bir idam mahkumunun son günü</field>
+            <field name="description">Yine viktor abimizin bir kitabı</field>
+            <field name="author">Viktor hugo</field>
+            <field name="genre">Novel</field>
+            <field name="editor">unknown</field>
+            <field name="year_of_edition">1999-04-20</field>
+             
+        </record>
+        
+        
+    </data>
+    
+
+    
+</odoo>
