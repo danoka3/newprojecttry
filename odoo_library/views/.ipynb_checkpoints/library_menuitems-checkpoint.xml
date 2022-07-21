@@ -2,7 +2,7 @@
 
 <odoo>
     <data>
-        <record model="ir.actions_act_window" id="book_list_action">
+        <record model="ir.actions.act_window" id="book_list_action">
             <field name="name">Books</field>
             <field name="res_model">library.book</field>
             <field name="view_mode">tree,form</field>
