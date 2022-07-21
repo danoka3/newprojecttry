@@ -24,7 +24,7 @@
                   parent="lib_manage"
                   sequence="2"/>
         
-        <menuitem name="books" id="lib_books" parent="lib_lib" sequence="3"
+        <menuitem name="Books" id="lib_books" parent="lib_lib" sequence="3"
                   action="book_list_action"/>
                   
          
