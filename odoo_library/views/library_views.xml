@@ -24,6 +24,9 @@
                             <page string="Description">
                                 <field name="description"/>
                             </page>
+                            <page string="Notes">
+                                <field name="notes"/>
+                            </page>
                         </notebook>
                         
                     </sheet>
