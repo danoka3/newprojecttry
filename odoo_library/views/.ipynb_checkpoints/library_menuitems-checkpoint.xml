@@ -3,7 +3,7 @@
 <odoo>
     <data>
         <record model="ir.actions.act_window" id="book_list_action">
-            <field name="name">books</field>
+            <field name="name">Books</field>
             <field name="res_model">library.book</field>
             <field name="view_mode">tree,form</field>
             <field name="help" type="html">
@@ -17,6 +17,7 @@
         
         <menuitem name="odoo Library Management"
                   id="lib_manage"
+                  web_icon="library.book,static/img/library-logo.png"
                   sequence="1"/>
         
         <menuitem name="Library"
