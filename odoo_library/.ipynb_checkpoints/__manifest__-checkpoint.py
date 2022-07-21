@@ -20,6 +20,8 @@
     
     'data': [
         
+        'security/library_security.xml',
+        'security/ir.model.access.csv',
         
     ],
     
