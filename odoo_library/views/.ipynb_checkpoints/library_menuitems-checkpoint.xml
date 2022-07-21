@@ -17,8 +17,8 @@
         
         <menuitem name="odoo Library Management"
                   id="lib_manage"
-                  sequence="1"
-                  web_icon="odoo_library,static/description/library.png"/>
+                  sequence="1"/>
+                
         
         <menuitem name="Library"
                   id="lib_lib"
