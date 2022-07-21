@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+    <data>
+        <record model="ir.actions_act_window" id="book_list_action">
+            <field name="name">Books</field>
+            <field name="res_model">library.book</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">
+                    add the first book
+                </p>
+            </field>
+            
+            
+        </record>
+        
+        <menuitem name="odoo Library Management"
+                  id="lib_manage"
+                  sequence="1"/>
+        
+        <menuitem name="Library"
+                  id="lib_lib"
+                  parent="lib_manage"
+                  sequennce="2"/>
+        
+        <menuitem name="books" id="lib_books" parent="lib_lib" sequence="3"
+                  action="book_list_action"/>
+                  
+         
+        
+        
+        
+        
+        
+    </data
+    
+    
+</odoo>
