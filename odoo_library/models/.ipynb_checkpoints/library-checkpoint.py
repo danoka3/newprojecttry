@@ -24,12 +24,13 @@ class Library(models.Model):
     
     notes = fields.Text(string="Notes")
     
-    ısbn_no = fields.Integer("Isbn No")
+    ısbn_no = fields.Char("Isbn No", size=13)
     
 @api.onchange('ısbn_no')
-def _ısbn_no_checker(self):
-        if len(str(self.ısbn_no)) <13:
-            raise ValidationError('ISBN lenght is not correct lenght. Your no: %s' % record.ısbn_no)
+def _check_ısbn_no(self):
+    if len(self.ısbn_no) < 13 :
+        raise ValidationError('ISBN No cannot less than 13 lenght')
+       
 
             
      
