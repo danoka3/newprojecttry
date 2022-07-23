@@ -28,7 +28,8 @@ class Library(models.Model):
     
 @api.onchange('ısbn_no')
 def _check_ısbn_no(self):
-    if len(self.ısbn_no) < 13 :
+    self.x = len(self.ısbn_no)
+    if self.x < 13 :
         raise ValidationError('ISBN No cannot less than 13 lenght')
        
 
