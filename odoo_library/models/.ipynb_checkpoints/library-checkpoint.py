@@ -12,7 +12,7 @@ class Library(models.Model):
     description = fields.Text(string="Description")
     author = fields.Char(string="Author Name", required=True)
     editor = fields.Char(string="Editor")
-    year_of_edition = fields.Date("Date")
+    year_of_edition = fields.Date(string="Year Of Edition")
     genre = fields.Selection(string="Genre",
                             selection=[("action","Action"),
                                       ("novel","Novel"),
@@ -22,3 +22,5 @@ class Library(models.Model):
     active = fields.Boolean(string="Active", default=True)
     
     notes = fields.Text(string="Notes")
+    
+    ısbn_no = fields.Integer("Isbn No")

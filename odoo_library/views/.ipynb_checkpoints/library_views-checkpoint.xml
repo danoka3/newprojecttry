@@ -18,6 +18,9 @@
                             <group>
                                 <field name="active"/>
                                 <field name="genre"/>
+                                <field name="ısbn_no"/>
+                                
+                            
                             </group>
                         </group>
                         <notebook>
