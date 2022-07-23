@@ -29,7 +29,7 @@ class Library(models.Model):
 @api.onchange('ısbn_no')
 def _ısbn_no_checker(self):
     for record in self:
-        if record.len(ısbn_no) < 13 or record.len(ısbn_no) > 13:
+        if record.len('ısbn_no') < 13 or record.len('ısbn_no') > 13:
             raise ValidationError('ISBN lenght is not correct lenght. Your no: %s' % record.ısbn_no)
 
             
