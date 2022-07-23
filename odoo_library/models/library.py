@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from odoo import models, fields, api
+from odoo.exceptions import UserError, ValidationError
 
 class Library(models.Model):
     
@@ -24,3 +25,14 @@ class Library(models.Model):
     notes = fields.Text(string="Notes")
     
     ısbn_no = fields.Integer("Isbn No")
+    
+@api.onchange('ısbn_no')
+def _ısbn_no_checker(self):
+    for record in self:
+        if record.len(ısbn_no) < 13 or record.len(ısbn_no) > 13:
+            raise ValidationError('ISBN lenght is not correct lenght. Your no: %s' % record.ısbn_no)
+
+            
+     
+            
+        
